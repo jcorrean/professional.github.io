@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: world.png
           filters:
-            brightness: 1.0
+            brightness: 0.8
           size: cover
           position: center
           parallax: false
@@ -35,11 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        As a behavioral data scientist, I study the methods and technology that allows us to have a detailed record of what we do, where we do it, with whom, and for what purposes. I rely on complex systems (network science) to understand, describe, and predict human behavior for academic and business purposes.
         
-        Please reach out to collaborate 😃
+        Drop me an email so we can collaborate. 😃
     design:
       columns: '1'
   - block: collection

@@ -55,58 +55,34 @@ interests:
 education:
   - area: PhD Interdisciplinary Sciences
     institution: Simon Bolivar University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
   - area: MsSc Behavioral Research Methodology
     institution: Universidad Católica Andrés Bello
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: BSc Psychology
     institution: Universidad Católica Andrés Bello
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+   
 work:
   - position: Head of Research & Development Unit
-    company_name: Critical Centrality Institute
+    company_name: Critical Centrality Institute (Mexico)
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-03-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Conducting applied research on social network analysis and large language models with Python and R
+      - Preparing, writing and submission of applied research proposals to international research funding agencies 
+      - Delivering talks to Latin American universities
+  - position: External Consultant in Data Science
+    company_name: Ingenio Pantaleon (Guatemala)
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-03-01
+    date_end: 2022-01-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Design and planning of a course in basic data science with R
+      - Delivering online synchronous lectures for the personnel 
+      - Understand and applied solutions to problems of extraction, transformation, and loading data
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
