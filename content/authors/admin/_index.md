@@ -55,14 +55,20 @@ interests:
 education:
   - area: PhD Interdisciplinary Sciences
     institution: Simon Bolivar University
+    date_start: 2011-01-01
+    date_end: 2015-06-12
   - area: MsSc Behavioral Research Methodology
     institution: Universidad Católica Andrés Bello
+    date_start: 2004-10-01
+    date_end: 2008-07-01
   - area: BSc Psychology
     institution: Universidad Católica Andrés Bello
-   
+    date_start: 1994-10-01
+    date_end: 2001-07-01
+
 work:
   - position: Head of Research & Development Unit
-    company_name: Critical Centrality Institute (Mexico)
+    company_name: Critical Centrality Institute
     company_url: ''
     company_logo: ''
     date_start: 2023-03-01
@@ -81,7 +87,7 @@ work:
     summary: |
       Responsibilities include:
       - Design and planning of a course in basic data science with R
-      - Delivering online synchronous lectures for the personnel 
+      - Delivering online synchronous lectures for the personnel of Ingenio Pantaleon
       - Understand and applied solutions to problems of extraction, transformation, and loading data
 
 # Skills
