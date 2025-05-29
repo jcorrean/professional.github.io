@@ -1,6 +1,6 @@
 ---
 title: How to do a Systematic Review
-summary: Easily learn how to conduct a systematic review
+summary: Easily learn how to conduct a systematic review with and without generative artificial intelligence tools such as perplexity, notebookLM, Deepseek, or ChatGPT.
 date: 2025-05-26
 type: docs
 math: false
