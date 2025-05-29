@@ -14,7 +14,7 @@ Since the release of ChatGPT on November 2022, a lot of progress has occurred in
 
 ## Video
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+Here, you have a Spanish-spoken session of our course:
 
 {{< youtube GlWa47ewbjU >}}
 
