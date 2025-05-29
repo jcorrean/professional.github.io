@@ -10,15 +10,11 @@ image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
-
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
-
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+Since the release of ChatGPT on November 2022, a lot of progress has occurred in the way researchers conduct their literature reviews. This course aims to illustrate how to perform as an exceptional researcher with and without generative artificial intelligence research assistants, using subscription-based scientific data bases such as Scopus, Web of Science, or Lens.
 
 ## Video
 
 Teach your course by sharing videos with your students. Choose from one of the following approaches:
 
-{{< youtube D2vj0WcvH5c >}}
+{{< youtube GlWa47ewbjU >}}
 
