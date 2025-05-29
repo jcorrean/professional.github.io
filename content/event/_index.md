@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Materials for learning
 cms_exclude: true
 #url: talk
 
@@ -9,5 +9,5 @@ view: card
 # Optional cover image (relative to `assets/media/` folder).
 image:
   caption: ''
-  filename: ''
+  filename: 'EconomiaConductual.pdf'
 ---
