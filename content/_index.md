@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: world.png
           filters:
-            brightness: 0.1
+            brightness: 0.9
           size: cover
           position: center
           parallax: false
