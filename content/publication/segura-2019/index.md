@@ -12,5 +12,5 @@ doi: 10.1016/j.dib.2019.104007
 links:
 - name: URL
   url: 
-    https://www.scopus.com/inward/record.uri?eid=2-s2.0-85066440817&doi=10.1016%2fj.dib.2019.104007&partnerID=40&md5=2f48e0404e639705830e44555239b0c1
+    https://www.sciencedirect.com/science/article/pii/S2352340919303609
 ---
