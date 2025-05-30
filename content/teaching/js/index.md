@@ -7,7 +7,8 @@ math: false
 tags:
   - Systematic Review
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  filename: "Studying.jpg"
+  caption: 'Enjoy the process of doing research'
 ---
 
 Since the release of ChatGPT on November 2022, a lot of progress has occurred in the way researchers conduct their literature reviews. This course aims to illustrate how to perform as an exceptional researcher with and without generative artificial intelligence research assistants, using subscription-based scientific data bases such as Scopus, Web of Science, or Lens.
