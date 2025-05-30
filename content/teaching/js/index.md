@@ -7,7 +7,7 @@ math: false
 tags:
   - Systematic Review
 image:
-  filename: "Studying.jpg"
+  filename: "content/teaching/js/Studying.jpg"
   caption: 'Enjoy the process of doing research'
 ---
 
