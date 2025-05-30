@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a behavioral data scientist, I study the methods and technology that allows us to have a detailed record of what we do, where we do it, with whom, and for what purposes. I rely on complex systems (network science) to understand, describe, and predict human behavior for academic and business purposes.
+        Hello there! I am a behavioral data scientist, I study the methods and technology that allows us to have a detailed record of what we do, where we do it, with whom, and for what purposes. I rely on complex systems (network science) to understand, describe, and predict human behavior for academic and business purposes.
         
         Drop me an email so we can collaborate. 😃
     design:
