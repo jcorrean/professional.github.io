@@ -5,7 +5,7 @@
 
 main:
   - name: Bio
-    url: /
+    url: /Bio
     weight: 10
   - name: Publications
     url: /publication
