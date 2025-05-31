@@ -134,4 +134,4 @@ languages:
 
 ## About Me
 
-Juan C. Correa is a university professor, interdisciplinary researcher, and consultant in data science and applications of artificial intelligence.
+University professor, interdisciplinary researcher, and consultant in data science and applications of artificial intelligence.
