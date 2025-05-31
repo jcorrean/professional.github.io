@@ -6,8 +6,8 @@
 # Website name
 title: Juan C. Correa website
 # Website URL
-baseURL: 'https://example.com/'
-
+baseURL: 'https://jcorrean.github.io/professional.github.io/'
+publishDir: "docs"
 ############################
 ## LANGUAGE
 ############################
