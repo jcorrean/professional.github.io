@@ -21,42 +21,47 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build website
   build:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
-        fetch-depth: 0
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: ${{ env.WC_HUGO_VERSION }}
-        extended: true
-    - uses: actions/cache@v3
-      with:
-        path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-        restore-keys: |
-          ${{ runner.os }}-hugomod-
-    - name: Setup Pages
-      id: pages
-      uses: actions/configure-pages@v5
-- name: Build with Hugo
-      env:
-        HUGO_ENVIRONMENT: production
-        run: |
-            echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" --destination docs
-    - name: Generate Pagefind search index
-      run: npx pagefind --site "docs" # <--- OPTIONAL: Change this from "public" to "docs" for consistency
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./docs # <--- CHANGE THIS LINE FROM './public' TO './docs'
+    steps: # 'steps:' is indented by 4 spaces
+      - name: Checkout # This '- name:' is indented by 6 spaces (two more than 'steps:')
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo # This '- name:' MUST ALSO BE INDENTED BY 6 SPACES
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ env.WC_HUGO_VERSION }}
+          extended: true
+
+      - uses: actions/cache@v3 # This '- uses:' MUST ALSO BE INDENTED BY 6 SPACES
+        with:
+          path: /tmp/hugo_cache_runner/
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Setup Pages # This '- name:' MUST ALSO BE INDENTED BY 6 SPACES
+        id: pages # 'id:' is indented by 8 spaces
+        uses: actions/configure-pages@v5 # 'uses:' is indented by 8 spaces
+
+      - name: Build with Hugo # This '- name:' MUST ALSO BE INDENTED BY 6 SPACES
+        env: # 'env:' is indented by 8 spaces
+          HUGO_ENVIRONMENT: production # 'HUGO_ENVIRONMENT:' is indented by 10 spaces
+          run: | # 'run: |' is indented by 10 spaces
+        # Commands under 'run: |' are indented by 12 spaces
+           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" --destination docs
+
+      - name: Generate Pagefind search index # This '- name:' MUST ALSO BE INDENTED BY 6 SPACES
+        run: npx pagefind --site "docs" # 'run:' is indented by 8 spaces
+
+      - name: Upload artifact # This '- name:' MUST ALSO BE INDENTED BY 6 SPACES
+        uses: actions/upload-pages-artifact@v3
+        with: # 'with:' is indented by 8 spaces
+          path: ./docs # 'path:' is indented by 10 spaces
 
   # Deploy website to GitHub Pages hosting
   deploy:
