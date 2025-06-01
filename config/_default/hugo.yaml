@@ -7,7 +7,7 @@
 title: Juan C. Correa website
 # Website URL
 baseURL: '/professional.github.io/'
-publishDir: "docs"
+publishDir: "public"
 ############################
 ## LANGUAGE
 ############################
