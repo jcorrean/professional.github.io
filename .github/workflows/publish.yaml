@@ -24,7 +24,7 @@ jobs:
   build:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
-     steps: # 'steps:' is indented by 4 spaces
+    steps: # 'steps:' is indented by 4 spaces
     - name: Checkout # This '- name:' is indented by 6 spaces (two more than 'steps:')
         uses: actions/checkout@v4
         with:
