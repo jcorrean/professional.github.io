@@ -8,6 +8,7 @@ title: Juan C. Correa website
 # Website URL
 baseURL: "https://jcorrean.github.io/professional.github.io/"
 publishDir: "docs"
+
 ############################
 ## LANGUAGE
 ############################
@@ -54,3 +55,17 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# Configuración de parámetros generales y módulos (añadida/consolidada)
+params:
+  analytics:
+    enabled: false # Deshabilita explícitamente blox-analytics
+
+module:
+  imports:
+    # Asegúrate de que blox-analytics esté aquí
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics
+      # Si el error persiste, puedes intentar descomentar la línea de abajo:
+      # ignore: true # Esto ignoraría el módulo si no lo necesitas
+    # ¡ESTA LÍNEA ES CRUCIAL! Asegura que blox-tailwind se gestione correctamente.
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind

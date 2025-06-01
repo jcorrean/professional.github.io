@@ -22,6 +22,9 @@ highlight_name: true
 # Role/position/tagline
 role: Behavioral Data Scientist
 
+# Biography
+biography: "University professor, interdisciplinary researcher, and consultant in data science and applications of artificial intelligence."
+
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Critical Centrality Institute
@@ -131,7 +134,3 @@ languages:
     percent: Native
 
 ---
-
-## About Me
-
-University professor, interdisciplinary researcher, and consultant in data science and applications of artificial intelligence.
