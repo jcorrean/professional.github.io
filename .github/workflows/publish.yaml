@@ -48,7 +48,7 @@ jobs:
         uses: actions/configure-pages@v5 # 'uses:' is indented by 8 spaces
 
       - name: Build with Hugo # This '- name:' MUST ALSO BE INDENTED BY 6 SPACES
-        env: # 'env:' is indented by 8 spaces
+       env: # 'env:' is indented by 8 spaces
           HUGO_ENVIRONMENT: production # 'HUGO_ENVIRONMENT:' is indented by 10 spaces
           run: | # 'run: |' is indented by 10 spaces
         # Commands under 'run: |' are indented by 12 spaces
